@@ -103,7 +103,7 @@ A classic Tetris implementation in C++ with terminal-based graphics. Features fa
 - Download code file from github repository.
 - **Compile:**  
    ~~~bash
-   g++ tetris_game.cpp -o tetris_game
+   g++ tetris.cpp -o tetris_game
    ~~~
 - **Run:**  
    ~~~bash
