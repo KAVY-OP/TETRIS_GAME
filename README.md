@@ -13,11 +13,11 @@ A classic Tetris implementation in C++ with terminal-based graphics. Features fa
 ---
 
 ## **Features**  
-✔ **Classic Tetris Mechanics** – Rotate and move falling blocks to clear lines.  
-✔ **Next Piece Preview** – See the upcoming tetromino for better planning.  
-✔ **Score & High Score System** – Earn points and compete against your best.  
-✔ **Game Over Detection** – Ends when blocks reach the top.  
-✔ **Restart Option** – Play again after losing.  
+**Classic Tetris Mechanics** – Rotate and move falling blocks to clear lines.  
+**Next Piece Preview** – See the upcoming tetromino for better planning.  
+**Score & High Score System** – Earn points and compete against your best.  
+**Game Over Detection** – Ends when blocks reach the top.  
+**Restart Option** – Play again after losing.  
 
 ---
 
@@ -58,12 +58,12 @@ A classic Tetris implementation in C++ with terminal-based graphics. Features fa
   - 4 lines (Tetris) = 800 points  
 
 ### **5. Game Loop**  
-1. **Spawn a new tetromino.**  
-2. **Check for collisions.**  
-3. **Process player input.**  
-4. **Auto-drop the piece every 500ms.**  
-5. **Check for completed lines.**  
-6. **Game over if new piece collides immediately.**  
+1. Spawn a new tetromino.
+2. Check for collisions.
+3. Process player input. 
+4. Auto-drop the piece every 500ms.
+5. Check for completed lines.
+6. Game over if new piece collides immediately.
 
 ---
 
@@ -100,14 +100,15 @@ A classic Tetris implementation in C++ with terminal-based graphics. Features fa
 - **G++** (or another C++ compiler)  
 
 ### **Steps**  
-1. **Compile:**  
-   ```bash
+- Download code file from github link.
+- **Compile:**  
+   ~~~bash
    g++ tetris_game.cpp -o tetris_game
-   ```
-2. **Run:**  
-   ```bash
+   ~~~
+- **Run:**  
+   ~~~bash
    ./tetris_game
-   ```
+   ~~~
 
 ### **For Linux/Mac Users**  
 - Replace `conio.h` with `ncurses` or similar libraries.  
